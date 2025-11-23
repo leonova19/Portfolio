@@ -373,6 +373,9 @@ main {
 }
 
 
+
+
+
 /* --------- RESPONSIVE --------- */
 
 
@@ -383,7 +386,7 @@ main {
 
 .portfolio {
   max-width: 1120px;
-  margin: 80px auto 80px;
+  margin: 80px auto 0px;
   padding: 0 24px;
 }
 
@@ -517,8 +520,8 @@ main {
 /* ---------- SERVICES PAGE ---------- */
 
 .services-page {
-  max-width: 1120px;
-  margin: 80px auto 80px;
+max-width: 1120px;
+  margin: 80px auto 0px;
   padding: 0 24px;
 }
 
@@ -531,7 +534,7 @@ main {
   margin: 0 0 8px;
   font-size: 1.8rem;
   text-align: center;
-  line-height: 2;
+
 }
 
 .services-subtitle {
@@ -649,7 +652,6 @@ main {
 
   /* Новый вид мобильного меню */
   .header {
-    width: calc(100% - 32px);
     padding: 16px 18px;
     margin: 16px auto 0;
     flex-direction: column;
@@ -682,11 +684,8 @@ main {
     order: 1;
     display: flex;
     justify-content: center;
-    width: 100%;
-    padding: 6px;
     border-radius: 16px;
     background: #f1ebe4;
-    gap: 6px;
   }
 
   .lang-btn {
@@ -705,7 +704,7 @@ main {
   }
 
   .hero-photo img {
-    max-width: 260px;
+    max-width: 200px;
     margin: 0 auto;
   }
 
