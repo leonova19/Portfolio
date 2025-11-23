@@ -6,6 +6,7 @@
     <title>Eliana — Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
 </head>
 
 <body>
@@ -39,8 +40,7 @@
         </div>
     </header>
 
-    <main class="index-page"
-        <!-- HERO -->
+    <main class="index-page">
         <section class="hero">
             <div class="hero-inner">
                 <div class="hero-text">
@@ -93,12 +93,14 @@
                     </p>
                 </div>
 
-                <!-- Блок с фото справа -->
-                <div class="hero-photo">
-                    <!-- замени src на путь к своей фотографии -->
-                    <img src="me.jpg" alt="Элиана — веб-разработчик" />
-                </div>
-            </div>
+<div class="hero-photo">
+  <dotlottie-wc 
+      src="https://lottie.host/6ab38d47-1dbc-41f7-a3c7-7764bfa9154c/FvjmPbUrqK.lottie"
+      style="width: 320px; height: 320px"
+      autoplay
+      loop>
+  </dotlottie-wc>
+</div>
         </section>
 
         <section class="about-cards">
@@ -149,6 +151,27 @@
                     Iga projekt valmib individuaalselt — täpselt nii, nagu teie seda ette kujutate.
                 </p>
             </div>
+
+            <div class="about-card">
+    <h3 class="about-card-title i18n" data-lang="ru">Адаптивный и удобный мобильный дизайн</h3>
+    <h3 class="about-card-title i18n" data-lang="en">Responsive and user-friendly mobile design</h3>
+    <h3 class="about-card-title i18n" data-lang="et">Mugav ja hästi kujundatud mobiiliversioon</h3>
+
+    <p class="about-card-text i18n" data-lang="ru">
+        Делаю сайт полностью удобным на телефонах — продумываю мобильную версию,
+        аккуратно перестраиваю блоки и создаю современный, плавный mobile-дизайн.
+    </p>
+    <p class="about-card-text i18n" data-lang="en">
+        I create a fully optimized mobile version — adjusting layout, improving usability,
+        and ensuring the website looks clean and smooth on phones.
+    </p>
+    <p class="about-card-text i18n" data-lang="et">
+        Loon täielikult mugava mobiiliversiooni — kohandan paigutuse, parandan kasutusmugavust
+        ja tagan puhta ning sujuva mobiilikujunduse.
+    </p>
+</div>
+
+            
         </section>
 
         <!-- CTA + кнопка "Смотреть мои работы" -->
