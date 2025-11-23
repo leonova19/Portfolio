@@ -699,9 +699,15 @@ max-width: 1120px;
     text-align: center;
   }
 
-  .hero-photo img {
-    max-width: 200px;
-    margin: 0 auto;
+  .hero-text {
+    padding: 0 24px 10px;  
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Карточки "Обо мне" */
@@ -754,3 +760,4 @@ max-width: 1120px;
     justify-content: center;
   }
 }
+
