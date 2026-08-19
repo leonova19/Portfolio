@@ -344,9 +344,13 @@
             const buttons = document.querySelectorAll(".lang-btn");
             const html = document.documentElement;
             const allTexts = document.querySelectorAll(".i18n");
+            const defaultLang = "ru";
+            const savedLang = localStorage.getItem("siteLang");
+            const availableLangs = ["ru", "en", "et"];
 
             function setLanguage(lang) {
                 html.setAttribute("lang", lang);
+                localStorage.setItem("siteLang", lang);
 
                 allTexts.forEach((el) => {
                     el.style.display = el.dataset.lang === lang ? "" : "none";
@@ -362,7 +366,7 @@
             });
 
 
-            setLanguage("ru");
+            setLanguage(availableLangs.includes(savedLang) ? savedLang : defaultLang);
         })();
     </script>
 </body>
